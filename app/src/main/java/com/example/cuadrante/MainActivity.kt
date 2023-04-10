@@ -46,13 +46,13 @@ fun PantallaFinal(modifier: Modifier = Modifier){
             Recuadro(
                 title = stringResource(R.string.A1),
                 description = stringResource(R.string.A2),
-                backgroundColor = Color.Green,
+                backgroundColor = Color.Yellow,
                 modifier = Modifier.weight(1f)
             )
             Recuadro(
                 title = stringResource(R.string.B1),
                 description = stringResource(R.string.B2),
-                backgroundColor = Color.Green,
+                backgroundColor = Color.Cyan,
                 modifier = Modifier.weight(1f)
             )
         }
@@ -60,7 +60,7 @@ fun PantallaFinal(modifier: Modifier = Modifier){
             Recuadro(
                 title = stringResource(R.string.C1),
                 description = stringResource(R.string.C2),
-                backgroundColor = Color.Green,
+                backgroundColor = Color.LightGray,
                 modifier = Modifier.weight(1f)
             )
             Recuadro(
